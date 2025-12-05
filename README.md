@@ -1,18 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MyProject — Next.js Login & Dashboard
+
+A secure Next.js application with authentication, registration, and position management. Features glass-morphism UI, server-side auth proxying, and production-ready security headers.
+
+## Features
+
+- 🔐 **Secure Authentication**: Token-based login/register with backend proxy.
+- 🎨 **Glass-Morphism UI**: Modern, responsive design with Tailwind CSS.
+- 📊 **Dashboard**: Authenticated dashboard with positions management (CRUD).
+- ⚡ **Optimized**: Server-side proxy routes, retry logic for slow backends, HTTP-only cookie support.
+- 🛡️ **Security Headers**: CSP, X-Frame-Options, HSTS, and more.
+
+## Tech Stack
+
+- **Frontend**: Next.js 14+ (App Router), React, Tailwind CSS, shadcn/ui
+- **Auth**: JWT tokens with HTTP-only cookie support (via backend)
+- **API**: Next.js API routes (proxy to backend)
+- **Styling**: Tailwind CSS + Glass-morphism effects
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js 18+
+- npm or yarn
+- A backend auth server (see `.env.example`)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/my-project.git
+   cd my-project
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+3. Configure environment variables:
+   - Copy `.env.example` to `.env`
+   - Update the values (especially `NEXTAUTH_SECRET` and backend URLs)
+4. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
