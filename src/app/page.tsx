@@ -43,8 +43,8 @@ export default function Home() {
       <div className="min-h-screen bg-black/60 backdrop-blur-sm w-full flex items-center justify-center p-4">
         <div className="w-full max-w-md p-8 rounded-3xl shadow-2xl bg-white/15 backdrop-blur-3xl border border-white/20">
           <div className="text-center">
-            <h1 className="text-3xl font-extrabold text-white mb-2">Welcome to MyProject</h1>
-            <p className="text-sm text-gray-300 mb-8">Secure sign in and registration. Choose an option to continue.</p>
+            <h1 className="text-3xl font-extrabold text-white mb-2">Welcome sa Website <br />ni Blad</h1>
+            <p className="text-sm text-gray-300 mb-8">log in ka na hehe</p>
           </div>
 
           <div className="space-y-3">
@@ -64,7 +64,7 @@ export default function Home() {
           </div>
 
           <div className="mt-6 text-center text-sm text-gray-300">
-            Already have an account? Use "Login". New here? Choose "Create an account".
+            Already have an account? Use "Login".<br></br> New here? Choose "Create an account".
           </div>
         </div>
       </div>
